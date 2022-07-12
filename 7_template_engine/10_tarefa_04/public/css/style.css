@@ -1,0 +1,13 @@
+body {
+    background-color: #dfdfdf;
+  
+}
+h1 {
+    text-align: center;
+}
+.card {
+    padding: 10px;
+    margin: 10px auto;
+    border: solid 2px black;
+    width: 200px;
+}
