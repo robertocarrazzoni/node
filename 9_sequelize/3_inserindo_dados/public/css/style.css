@@ -1,0 +1,73 @@
+* {
+    font-family: helvetica, sans-serif;
+    margin: 0px;
+}
+#navbar {
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+#navbar ul li {
+    margin-left: 1em;
+}
+h1 {
+    text-align: center;
+}
+form, 
+.books_container {
+    width: 450px;
+    margin: 0 auto;
+}
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+.form_control label {
+    font-weight: bold;
+    margin-bottom: .3em;
+}
+.form_checkbox{
+    flex-direction: row;
+}
+.form_checkbox input{
+    margin-right: 10px;
+}
+.form_control input {
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    margin: .8em;
+    padding: .2em;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.remove {
+    display: inline;
+}
+input[type=submit] {
+    background-color: transparent;
+    border: 1px solid black;
+    margin: .8em;
+    padding: .2em;
+    cursor: pointer;
+    font-size: 1em;
+}
